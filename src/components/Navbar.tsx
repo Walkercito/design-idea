@@ -49,7 +49,7 @@ function Navbar() {
 
                     <button 
                         onClick={toggleMenu}
-                        className="md:hidden flex flex-col gap-1 p-2 hover:bg-gray-800 rounded transition-colors"
+                        className="md:hidden flex flex-col gap-1 p-2 hover:bg-black rounded transition-colors"
                         aria-label="Toggle menu"
                     >
                         <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${
